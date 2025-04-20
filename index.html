@@ -3,65 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>I'm Sorry</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <style>
         /* Background settings */
         body {
             font-family: 'Pacifico', cursive;
-            background-image: url('https://i.pinimg.com/originals/f9/6d/fb/f96dfb9f9d4e0b42af3888de8b9473a7.gif'); /* Background GIF */
-            background-size: cover;  /* Ensures the background GIF covers the full page */
+            background-image: url('https://i.pinimg.com/originals/f9/6d/fb/f96dfb9f9d4e0b42af3888de8b9473a7.gif');
+            background-size: cover;
             background-position: center;
             background-attachment: fixed;
             color: pink;
             text-align: center;
-            margin: 0; /* Remove default body margin */
-            height: 100vh; /* Full height of the viewport */
+            margin: 0;
+            height: 100vh;
         }
-        
+
         /* Centered content (GIF and text) */
         .content {
             display: flex;
-            justify-content: center;  /* Horizontally centers the content */
-            align-items: center;      /* Vertically centers the content */
-            height: 100%;             /* Full height for the content section */
-            flex-direction: column;   /* Stack the text and the GIF vertically */
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            flex-direction: column;
+            padding: 20px;
         }
 
         /* Text styling */
         p {
             font-size: 30px;
-            margin-bottom: 20px; /* Adds space between text and the GIF */
-        }
-
-        /* GIF container styling */
-        .gif-container {
-            text-align: center;
-        }
-
-        .gif-container img {
-            width: 400px; /* Adjust the size of the GIF */
-            border: 5px solid pink;
-            border-radius: 15px;
-            transition: transform 0.3s ease;
-        }
-
-        .gif-container img:hover {
-            transform: scale(1.1); /* Enlarge the GIF when hovered */
-        }
-    </style>
-</head>
-<body>
-    <div class="content">
-        <p>
-            I'm sorry<br>
-            but the damage is done<br>
-            you’ve slipped away<br>
-            and I can’t pull you back
-        </p>
-
-        <!-- Use the new GIF in the center -->
-        <div class="gif-container">
-            <img src="https://media.tenor.com/jLLIlQlD-RcAAAAi/giggleprincess.gif" alt="Giggle Princess GIF">
-        </div>
-    </div>
-</body>
-</html>
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px black;
